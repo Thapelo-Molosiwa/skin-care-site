@@ -1,0 +1,55 @@
+/* Navbar Styles */
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: white;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+  height: 60px; /* Set the height of the navbar */
+}
+
+.navContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+  height: 100%; /* Ensure container fills the navbar */
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+}
+
+.brandName {
+  margin-left: 10px;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #2d6a4f;
+}
+
+.navLinks {
+  display: flex;
+  gap: 20px;
+}
+
+.link {
+  text-decoration: none;
+  font-size: 1rem;
+  color: #555;
+  transition: color 0.3s ease;
+}
+
+.link:hover {
+  color: #2d6a4f;
+}
+
+/* Add padding to the top of the main content to prevent it from overlapping the navbar */
+.body {
+  padding-top: 60px; /* Match the navbar height */
+}

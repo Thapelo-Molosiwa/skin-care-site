@@ -1,0 +1,91 @@
+/* HomePage.module.css */
+.hero {
+  background-color: #2e8b57; /* Organic green */
+  color: white;
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.heroTitle {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.heroDescription {
+  font-size: 1.25rem;
+  margin-top: 10px;
+}
+
+.shopNowBtn {
+  background-color: #556B2F; /* Olive green */
+  padding: 10px 20px;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+.shopNowBtn:hover {
+  background-color: #3e5325;
+}
+
+.products {
+  padding: 50px 20px;
+  background-color: #f9f9f9;
+}
+
+.productsTitle {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 30px;
+}
+
+.productsGrid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  justify-items: center;
+}
+
+.productCard {
+  background-color: white;
+  border: 1px solid #ddd;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.productCard h3 {
+  font-size: 1.5rem;
+  margin: 10px 0;
+}
+
+.productCard p {
+  font-size: 1.125rem;
+}
+
+.addToCartBtn {
+  background-color: #556B2F; /* Olive green */
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+.addToCartBtn:hover {
+  background-color: #3e5325;
+}
+
+.added {
+  background-color: #006400; /* Dark green */
+}
+
+.footer {
+  background-color: #2e8b57; /* Organic green */
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+}

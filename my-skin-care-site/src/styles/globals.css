@@ -1,0 +1,7 @@
+/* Global Reset */
+body {
+    margin: 0;
+    padding: 0;
+    padding-top: 60px; /* Match the height of the fixed navbar */
+  }
+  
