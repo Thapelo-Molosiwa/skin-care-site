@@ -18,13 +18,13 @@ const BillingPage = () => {
         <ul>
           {cart.map((item, index) => (
             <li key={index}>
-              {item.name} - ${item.price}
+              {item.name} - R{item.price}
             </li>
           ))}
         </ul>
       </div>
       <div>
-        <h3>Total: ${total}</h3>
+        <h3>Total: R{total}</h3>
       </div>
       <button onClick={() => alert("Proceeding to payment...")}>Pay Now</button>
     </div>

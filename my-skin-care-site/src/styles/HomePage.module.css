@@ -1,6 +1,6 @@
 /* HomePage.module.css */
 .hero {
-  background-color: #2e8b57; /* Organic green */
+  background-color: #2b8552;
   color: white;
   padding: 50px 20px;
   text-align: center;
@@ -17,16 +17,16 @@
 }
 
 .shopNowBtn {
-  background-color: #556B2F; /* Olive green */
+  background-color: #dbd6d6; /* Olive green */
   padding: 10px 20px;
-  color: white;
+  color: rgb(0, 0, 0);
   text-decoration: none;
   font-weight: bold;
   border-radius: 5px;
 }
 
 .shopNowBtn:hover {
-  background-color: #3e5325;
+  background-color: #ffffff;
 }
 
 .products {

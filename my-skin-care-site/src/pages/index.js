@@ -8,30 +8,30 @@ const productsData = [
   {
     id: 1,
     name: "Facial Serum",
-    price: 30,
+    price: 160.00,
     image: "/WhatsApp Image 2025-01-20 at 12.51.15 (1).jpeg",
-    description: "Hydrate and nourish your skin."
+    description: "Brighten, firm, and rejuvenate your skin effortlessly."
   },
   {
     id: 2,
-    name: "Facial Moisturiser",
-    price: 25,
+    name: "Facial Moisturizer",
+    price: 190.00,
     image: "/WhatsApp Image 2025-01-20 at 12.51.16.jpeg",
-    description: "Soft and smooth skin, naturally."
+    description: "Lightweight hydration for soft, glowing skin all day."
   },
   {
     id: 3,
-    name: "Herbal Cleanser",
-    price: 20,
-    image: "/product3.png",
-    description: "Gentle cleansing for all skin types."
+    name: "Calming Toner",
+    price: 155.00,
+    image: "/WhatsApp Image 2025-01-20 at 12.51.15.jpeg",
+    description: "Refresh and balance your skin for a smooth, radiant finish."
   },
   {
     id: 4,
-    name: "Organic Serum",
-    price: 35,
-    image: "/product4.png",
-    description: "Rejuvenate your skin with nature."
+    name: "Licorice Soap",
+    price: 125.00,
+    image: "/WhatsApp Image 2025-01-20 at 12.51.15 (2).jpeg",
+    description: "Cleanse and even your skin tone with a gentle touch."
   }
 ];
 
@@ -95,7 +95,7 @@ export default function HomePage() {
               />
               <h3>{product.name}</h3>
               <p>{product.description}</p>
-              <p>${product.price}</p>
+              <p>R{product.price}</p>
               <button
                 onClick={() => addToCart(product)}
                 className={`${styles.addToCartBtn} ${isProductInCart(product.id) ? styles.added : ''}`}

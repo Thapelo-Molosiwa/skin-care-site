@@ -29,14 +29,14 @@ const CartPage = () => {
         <div>
           {cart.map((item) => (
             <div key={item.id} className="cart-item">
-              <h3>{item.name} - ${item.price}</h3>
+              <h3>{item.name} - R{item.price}</h3>
               <button onClick={() => removeItemFromCart(item.id)}>
                 Remove
               </button>
             </div>
           ))}
           <div className="cart-total">
-            <h3>Total: ${totalPrice}</h3>
+            <h3>Total: R{totalPrice}</h3>
           </div>
           <Link href="/billing">
             <button className="checkout-btn">Proceed to Checkout</button>
