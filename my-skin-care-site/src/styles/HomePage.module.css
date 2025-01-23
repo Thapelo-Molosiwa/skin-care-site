@@ -1,4 +1,4 @@
-/* HomePage.module.css */
+/* Hero Section */
 .hero {
   background-color: #2b8552;
   color: white;
@@ -29,6 +29,7 @@
   background-color: #ffffff;
 }
 
+/* Products Section */
 .products {
   padding: 50px 20px;
   background-color: #f9f9f9;
@@ -83,9 +84,87 @@
   background-color: #006400; /* Dark green */
 }
 
+/* Footer */
 .footer {
   background-color: #2e8b57; /* Organic green */
   color: white;
   padding: 20px 0;
   text-align: center;
+}
+
+/* Mobile and Tablet View */
+@media (max-width: 768px) {
+  .heroTitle {
+    font-size: 2.5rem; /* Adjust title size for smaller screens */
+  }
+
+  .heroDescription {
+    font-size: 1.125rem; /* Adjust description size */
+  }
+
+  .productsTitle {
+    font-size: 1.5rem; /* Adjust title size for products */
+  }
+
+  .productsGrid {
+    grid-template-columns: repeat(2, 1fr); /* Change grid to 2 columns */
+  }
+
+  .productCard {
+    padding: 15px; /* Reduce padding in cards */
+  }
+
+  .productCard h3 {
+    font-size: 1.25rem; /* Adjust product title size */
+  }
+
+  .productCard p {
+    font-size: 1rem; /* Adjust product description size */
+  }
+
+  .addToCartBtn {
+    font-size: 1rem; /* Adjust button font size */
+    padding: 8px 16px; /* Reduce button padding */
+  }
+}
+
+/* Mobile View (small screens) */
+@media (max-width: 480px) {
+  .hero {
+    padding: 40px 10px; /* Adjust padding for smaller screens */
+  }
+
+  .heroTitle {
+    font-size: 2rem; /* Reduce font size for very small screens */
+  }
+
+  .heroDescription {
+    font-size: 1rem; /* Reduce description font size */
+  }
+
+  .shopNowBtn {
+    font-size: 1rem; /* Adjust button font size */
+    padding: 8px 16px; /* Adjust padding */
+  }
+
+  .productsTitle {
+    font-size: 1.25rem; /* Adjust title size */
+  }
+
+  .productsGrid {
+    grid-template-columns: 1fr; /* Single column grid on small screens */
+  }
+
+  .productCard h3 {
+    font-size: 1.125rem; /* Adjust product title font size */
+  }
+
+  .productCard p {
+    font-size: 0.875rem; /* Adjust product description font size */
+  }
+
+  .addToCartBtn {
+    font-size: 0.875rem; /* Adjust button font size */
+    padding: 6px 12px; /* Adjust button padding */
+  }
 }

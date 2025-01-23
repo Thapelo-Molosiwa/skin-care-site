@@ -1,0 +1,143 @@
+/* Hero Section */
+.hero {
+    background-color:#2b8552; /* Light green background */
+    text-align: center;
+    padding: 4rem 1rem;
+  }
+  
+  .heroTitle {
+    font-size: 2.5rem;
+    color: #ffffff; /* Green color */
+    font-weight: bold;
+  }
+  
+  .heroSubtitle {
+    margin-top: 1rem;
+    font-size: 1.2rem;
+    color: #ffffff;
+  }
+  
+  /* Main Section */
+  .container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    padding: 4rem 1rem;
+  }
+  
+  .contactInfo, .messageForm {
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Contact Info Section */
+  .contactInfo {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around; /* Spread out content */
+    height: 100%;
+  }
+  
+  .sectionTitle {
+    font-size: 1.8rem;
+    color: #1f7728;
+    margin-bottom: 1.5rem;
+  }
+
+  /* Footer */
+.footer {
+    background-color: #2e8b57; /* Organic green */
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  .contactItem {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1.5rem;
+  }
+  
+  .icon {
+    font-size: 1.8rem;
+    color: #2a9134;
+    margin-right: 1rem;
+  }
+  
+  .bold {
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .p {
+    font-size: 1rem;
+    color: #555;
+  }
+  
+  /* Form Styles */
+  .form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+  
+  .formGroup {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .label {
+    font-size: 1rem;
+    color: #333;
+    margin-bottom: 0.5rem;
+  }
+  
+  .input, .textarea {
+    padding: 0.8rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+  }
+  
+  .input:focus, .textarea:focus {
+    outline: none;
+    border-color: #2a9134;
+    box-shadow: 0 0 5px rgba(42, 145, 52, 0.3);
+  }
+  
+  .textarea {
+    resize: none;
+  }
+  
+  .button {
+    background-color: #2a9134;
+    color: white;
+    padding: 0.8rem 1.5rem;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .button:hover {
+    background-color: #23772d; /* Darker green */
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .container {
+      grid-template-columns: 1fr;
+    }
+  
+    .heroTitle {
+      font-size: 2rem;
+    }
+  
+    .heroSubtitle {
+      font-size: 1rem;
+    }
+  }
+  
