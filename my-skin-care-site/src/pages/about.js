@@ -61,18 +61,23 @@ export default function About() {
         <div className={styles.right}>
           <h2 className={styles.sectionTitle}>About Us & Our Founder</h2>
           <p className={styles.aboutText}>
-            Founded by [Founder Name], our company was born out of a passion for
-            eco-friendly skincare and a vision to make a positive impact. We
-            believe that taking care of your skin shouldn’t come at the expense
-            of the planet. That’s why our products are thoughtfully crafted to
-            align with our commitment to sustainability and natural wellness.
+            <h3>Meet the Founder</h3> Anastacia Mdluli believes in the power of
+            nature to heal and nurture your skin. I create with purpose, take
+            risks with courage, and live my passion with unwavering dedication.
           </p>
+          <h3>Mission</h3>
           <p className={styles.aboutText}>
-            With every product, we’re not just helping your skin glow—we’re
-            contributing to a healthier, greener world. By combining effective
-            skincare with a dedication to environmental care, we’re taking small
-            yet meaningful steps toward a more sustainable future.{" "}
+             Our mission is to provide high-quality A.organic skincare
+            products meticulously crafted to enhance and celebrate natural
+            beauty. We prioritize sourcing the finest natural ingredients,
+            ensuring every product is gentle, effective, and eco-friendly.
+            
           </p>
+          <h3>Vision</h3>
+          <p> Our vision is to lead as the most trusted brand for
+            sustainable skincare solutions, offering innovative, eco-friendly
+            products that prioritize your skin’s health and the planet's
+            well-being.</p>
         </div>
       </section>
       {/* Footer */}

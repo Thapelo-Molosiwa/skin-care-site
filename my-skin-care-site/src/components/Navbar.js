@@ -19,9 +19,9 @@ export default function Navbar() {
           <Image
             src="/WhatsApp_Image_2025-01-20_at_12.51.16-removebg-preview.png"
             alt="Logo"
-            width={250}
-            height={250}
-            priority // Adds priority to the image for LCP optimization
+            width={130}
+            height={130}
+            priority 
           />
         </Link>
 
